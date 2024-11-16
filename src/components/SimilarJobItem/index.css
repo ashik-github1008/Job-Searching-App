@@ -1,0 +1,31 @@
+.similar-job-item-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  border-radius: 12px;
+  width: 30%;
+  margin-right: 28px;
+  margin-bottom: 28px;
+  padding: 30px;
+}
+
+.similar-item-desc-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.similar-item-desc-heading-text {
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.similar-item-job-desc {
+  color: #ffffff;
+  font-size: 16px;
+  max-width: 95%;
+}
+
+.job-details-location-job-type-container {
+  color: #ffffff;
+}

@@ -1,0 +1,98 @@
+.profile-filter-container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  height: 25%;
+  background-size: cover;
+  border-radius: 16px;
+  padding-left: 18px;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+}
+
+.profile-name {
+  color: #6366f1;
+  font-size: 20px;
+}
+
+.profile-short-bio {
+  color: #202020;
+  font-size: 13px;
+  width: 80%;
+}
+
+.hr-line-profile {
+  width: 70%;
+  border: 1px solid #475569;
+  margin-left: 0px;
+}
+
+.employment-type-container,
+.salary-range-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.types-of-employment-heading,
+.types-of-salary-heading {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.types-of-employment-list-container,
+.types-of-salary-list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 3px;
+}
+
+.employment-type-item-container,
+.salary-type-item-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox-label {
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: 7px;
+}
+
+.profile-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-retry-btn {
+  color: #ffffff;
+  background-color: #4f46e5;
+  border-radius: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.profile-loading-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 25%;
+}
